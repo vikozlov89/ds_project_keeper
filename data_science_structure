@@ -1,0 +1,98 @@
+{
+  "name": "Data Science Project",
+  "path": "Data Science Project",
+  "description": "A data science project skeletone",
+  "files": [
+    {"name": "readme.md", "content": "# The Data Science Project Readme\nWrite about the project here."},
+    {"name": "faq.md", "content": "# FAQ\nWrite some special data and answers for probable questions."}
+  ],
+  "subfolders": [
+      {
+      "name": "data",
+      "path": "data",
+      "description": "Data folder for global project data",
+      "subfolders": [
+                       {
+                      "name": "raw",
+                      "path": "raw",
+                      "description": "Raw data folder",
+                      "files": [
+                              {"name": "metadata.txt",
+                               "content": "formats_allowed=[xlsx,xls,csv,txt,tsv,xml,json]"}
+                               ]
+                      },
+                      {
+                      "name": "processed",
+                      "path": "processed",
+                      "description": "Processed data folder",
+                      "files": [
+                              {"name": "metadata.txt",
+                               "content": "formats_allowed=[xlsx,xls,csv,txt,tsv,xml,json]"}
+                               ]
+                      }
+                    ]
+
+      },
+     {
+      "name": "scripts",
+      "path": "scripts",
+      "description": "Scripts folder",
+       "subfolders": [
+           {
+            "name": "bash",
+            "path": "bash",
+            "description": "BASH scripts",
+            "files": [
+                        {"name": "readme.md", "content": "# Bash Scripts List"},
+                        {"name": "faq.md", "content": "# Bash Scripts FAQ"},
+                        {"name": "metadata.txt",
+                               "content": "formats_allowed=[bat,sh]"}
+                      ]
+            },
+            {
+            "name": "SQL",
+            "path": "SQL",
+            "description": "SQL scripts",
+            "files": [
+                        {"name": "readme.md", "content": "# SQL Scripts List"},
+                        {"name": "faq.md", "content": "# SQL Scripts FAQ"},
+                        {"name": "metadata.txt",
+                               "content": "formats_allowed=[sql]"}
+                      ]
+            },
+            {
+            "name": "Python",
+            "path": "Python",
+            "description": "Python scripts",
+            "files": [
+                        {"name": "readme.md", "content": "# Python Scripts List"},
+                        {"name": "faq.md", "content": "# Python Scripts FAQ"},
+                        {"name": "metadata.txt",
+                               "content": "formats_allowed=[py,pyc]"}
+                      ]
+            },
+            {
+            "name": "R",
+            "path": "R",
+            "description": "R scripts",
+            "files": [
+                        {"name": "readme.md", "content": "# R Scripts List"},
+                        {"name": "faq.md", "content": "# R Scripts FAQ"},
+                        {"name": "metadata.txt",
+                               "content": "formats_allowed=[r]"}
+                      ]
+            }
+       ]
+      },
+    {
+      "name": "experiments",
+      "path": "experiments",
+      "description": "Experiments Folder",
+      "files": [
+                        {"name": "readme.md", "content": "# Experiments Folder\nThe folder should contain data science experiments.Each of them should answer some question or solve some problem."
+                        },
+                        {"name": "faq.md", "content": "# R Scripts FAQ"}
+                      ]
+    }
+  ]
+}

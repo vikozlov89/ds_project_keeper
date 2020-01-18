@@ -1,0 +1,37 @@
+{
+  "name": "Test Project",
+  "path": "/home/vlad/Projects/Test Project",
+  "description": "A test project for project creator scripts testing",
+  "files": [
+    {"name": "readme.md", "content": "# Test Project Readme"},
+    {"name": "faq.md", "content": "# Test Project FAQ"}
+  ],
+  "subfolders": [
+      {
+      "name": "data",
+      "path": "data",
+      "description": "Data folder"
+      },
+     {
+      "name": "scripts",
+      "path": "scripts",
+      "description": "Scripts folder",
+       "subfolders": [
+           {
+            "name": "bash",
+            "path": "bash",
+            "description": "BASH scripts"
+            },
+            {
+            "name": "SQL",
+            "path": "SQL",
+            "description": "SQL scripts",
+            "files": [
+                        {"name": "readme.md", "content": "# Test Project Readme"},
+                        {"name": "faq.md", "content": "# Test Project FAQ"}
+                      ]
+            }
+       ]
+      }
+  ]
+}
